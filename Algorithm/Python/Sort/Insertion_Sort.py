@@ -16,7 +16,6 @@ for i in range(0, len(array)-1):
         j -= 1
   
   
-  
 lists = [8, 3, 2, 7, 6]
 
 for i in range(1, len(lists)):
