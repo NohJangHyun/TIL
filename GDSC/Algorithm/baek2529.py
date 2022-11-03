@@ -23,5 +23,6 @@ for per in permutations([0,1,2,3,4,5,6,7,8,9],k+1) :
     if sign:
         result.append(per)
 
+
 print(''.join(map(str,list(max(result)))))
 print(''.join(map(str,list(min(result)))))
