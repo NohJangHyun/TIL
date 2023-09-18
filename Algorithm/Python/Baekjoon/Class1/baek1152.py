@@ -1,4 +1,7 @@
-import sys
+w = list(input().split())
+print(len(w))
 
-list = list(sys.stdin.readline().split())
-print(len(list))
+# 기존 풀이
+# import sys
+# list = list(sys.stdin.readline().split())
+# print(len(list))

@@ -1,10 +1,8 @@
-import sys 
+import sys
+a = int(sys.stdin.readline())
+b = int(sys.stdin.readline())
+c = int(sys.stdin.readline())
 
-A = int(sys.stdin.readline())
-B = int(sys.stdin.readline())
-C = int(sys.stdin.readline())
-
-num = str(A*B*C)
-for n in range(10):
-    cnt = num.count(str(n))
-    print(cnt)
+mul = str(a*b*c)
+for i in range(10):
+    print(mul.count(str(i)))

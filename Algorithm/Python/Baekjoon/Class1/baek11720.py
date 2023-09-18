@@ -1,9 +1,6 @@
-import sys
-
-N = int(sys.stdin.readline())
-num = str(sys.stdin.readline())
+N = int(input())
+x = input()
 sum = 0
 for n in range(N):
-    sum += int(num[n])
-    
+    sum += int(x[n])
 print(sum)
